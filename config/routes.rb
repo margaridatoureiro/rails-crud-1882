@@ -4,8 +4,9 @@ Rails.application.routes.draw do
   # CRUD (Create, Read, Update, Delete)
   # Read all restaurants
   # get "/restaurants", to: "restaurants#index"
-  # # Read one restaurant
+  # **NEW MUST BE BEFORE SHOW !!
   # get "/restaurants/new", to: "restaurants#new"
+  # # Read one restaurant
   # get "/restaurants/:id", to: "restaurants#show", as: :restaurant
   # # Create a restaurant
   # post "/restaurants", to: "restaurants#create"
