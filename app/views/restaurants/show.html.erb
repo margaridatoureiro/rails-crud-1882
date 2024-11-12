@@ -1,0 +1,4 @@
+<h1><%= @restaurant.name %></h1>
+<%= "⭐" * @restaurant.rating %>
+<p><%= @restaurant.address %></p>
+<%= link_to "Destroy", restaurant_path(@restaurant.id), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>

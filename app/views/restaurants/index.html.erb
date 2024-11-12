@@ -1,0 +1,7 @@
+<h1>Check out these restaurants 🍕</h1>
+<ul>
+  <% @restaurants.each do |restaurant| %>
+  <%= link_to restaurant.name, restaurant_path(restaurant) %>
+  <li> <%= "⭐" * restaurant.rating %></li>
+  <% end %>
+</ul>
